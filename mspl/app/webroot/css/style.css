@@ -1,0 +1,16 @@
+.slider
+{
+list-style:none;
+float:left;
+}
+.slider ul li{
+list-style:none;
+float:left;
+margin-left: 5%
+
+}
+.bxslider li
+{
+ float:left;
+ }
+ 

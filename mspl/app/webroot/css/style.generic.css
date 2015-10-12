@@ -1,0 +1,404 @@
+*
+{
+margin:0;
+padding:0;
+
+}
+body{
+	background-color:#CF6;
+	}
+
+.clr
+{clear:both;}
+
+main{width:100%; background:#ffffff;}
+
+header
+{width:90%;
+margin:0 auto;
+color:white;
+}
+
+.logoArea
+{width: 60%;
+float:left;}
+.logoImg
+{width:205px;
+height:110px;
+float:left;
+background:url(../images/Mspl.png) no-repeat;}
+
+.blue
+{color:#39C;
+}
+.pd
+{padding-top:40px;}
+
+.search
+{width:31%;
+float: right;}
+
+
+
+.searchIcon
+{width:30px;
+height:30px;
+float:left;
+background:url(../images/search.png);}
+
+
+.mainmenu
+{
+float:left;
+  width:100%;
+
+  background-color:#000000;
+}
+
+.menuleft
+{
+	float:left;
+	background-color:#000000;
+	border-width:2px;
+	border-style:;
+	width:29%;
+	height:44px;
+	color:#ffffff;
+
+}
+.black
+{
+
+color:#000000;
+}
+.blinktext
+{
+float:left;
+padding:7px;
+margin:7px;
+color:#ff0;
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.menuright
+{
+	float:right;
+	background-color:#000000;
+	border-width:2px;
+	border-style:;
+	width:70%;
+	height:40px;
+	color:pink;
+
+}	
+.menuDiv
+{
+	background-color:#000000;
+	border-width:2px;
+	border-style:solid;
+	height:40px;
+	color:blue;
+}
+.menu
+{
+	background-color:#FFFFFF;
+	height:40px;
+	
+	float:left;
+
+	border-style:double;
+	border-width:1px;
+	background:#ffffff
+}
+  
+.menu a
+{
+
+	text-decoration:none;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:18px;
+	color:#ffffff;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+
+
+}
+.menu li
+{
+	list-style:none;
+	float:left;
+	width:130px;
+	
+}
+.menu li ol
+{
+	display:none;
+	list-style:none;
+	position:absolute;
+}
+.menu li:hover ol
+{
+	
+	display:inherit;
+	width:130px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+
+}
+
+
+.about
+{
+
+border-style:solid;
+border-width:1px;
+text-align:center;
+margin-left:5%;
+margin-right:5%;
+background:#333;
+}
+
+.aboutimg
+{
+width:954px;
+height:753px;
+background:url(../../../../../../Users/pc/Documents/Unnamed%20Site%202/cake.icon.png)
+
+}
+.aboutpic
+{
+float:left;
+background:#ccc;
+margin-left:70px;
+}
+
+.tt{
+float:left;
+margin-top:10%;
+margin-left:10%px;
+}
+
+
+
+.forresult
+{
+	float:left;
+	margin-left:10%;
+}
+
+/*
+.footer
+{
+	width:1124px;
+margin:0 auto;
+height:246px;
+color:#FFFFFF;
+background:url(../images/banner.jpg);
+}
+*/
+.footer
+{
+   width:100%;
+   height:100px;
+   background:#000000;
+     margin-top:100px;
+}
+
+.logintable
+{
+float:left;
+margin-top:15%;
+margin-left:36%;
+border-style:solid;
+border-width:2px;
+border-color:black;
+}
+.but
+{
+
+background:url(../images/form_search.gif) no-repeat;
+height:30px;
+width:80px;
+}
+.sign
+{
+text-align:center;
+padding:5px;
+background:#03F;
+height:23px;
+width:80px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:12px;
+border-radius:3px;
+margin-left: 125px;
+  border-bottom-left-radius: 44px;
+
+}
+.sign1
+{
+float:right;
+text-align:center;
+padding:5px;
+background:#03F;
+height:23px;
+width:80px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:12px;
+border-radius:3px;
+
+  margin-top: -33px;
+  border-bottom-right-radius: 42px;
+}
+.button
+{
+text-align:center;
+padding:5px;
+background:#03F;
+height:35px;
+width:80px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:12px;
+border-radius:3px;
+color:white;
+
+}
+
+#forlogin{
+width:100px;
+height:25px;
+background-color:#fcc;
+float:right;
+}
+
+.text1{
+width:200px;
+height:26px;
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size:14px;
+color:#fty;
+font-weight:bold;
+}
+.footertext
+{
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size:18px;
+color:#00F;
+font-weight:bold;
+}
+.footertext1
+{
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size:12px;
+color:#ffffff;
+font-weight:bold;
+text-align:justify;
+margin-left:20%;
+margin-right:20%;
+}
+
+
+.regisback
+{
+	background:#EFC9C9;
+	  width: 313px;
+
+	    margin-top: 93px;
+		
+		border-bottom-left-radius:10px;
+		border-bottom-color:#F33;
+		border-bottom-style:groove;
+		border-bottom-width:3px;
+		
+		border-top-left-radius:10px;
+		border-top-color:#F33;
+		border-top-style:groove;
+		border-top-width:3px;
+		
+		border-left-right-radius:10px;
+		border-left-color:#F33;
+		border-left-style:groove;
+		border-left-width:3px;
+		
+		border-right-right-radius:10px;
+		border-right-color:#F33;
+		border-right-style:groove;
+		border-right-width:3px;
+		
+		
+		
+		
+		
+}
+.logintable
+{
+background:#EFC9C9;
+	  width: 313px;
+}
+
+/* ================================= For menu */
+#wrap {
+ width: 100%; 
+ height: 50px; 
+ margin: 0; 
+ z-index: 99; 
+ position: relative; 
+ background-color: #366b82;
+ }
+
+.navbar {
+ height: 50px;
+ padding: 0;
+ margin-left:680px;
+ position: absolute; 
+ border-right: 1px solid #54879d; 
+ }
+
+.navbar li  {
+   height: auto;
+   width: 150px; 
+   float: left; 
+   text-align: center; 
+   list-style: none;  
+   font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+   padding: 0;
+   margin: 0;
+   background-color: #366b82;
+                        }
+
+
+.navbar a {       
+  padding: 18px 0; 
+  border-left: 1px solid #54879d;  this creates a nice effect. */
+  border-right: 1px solid #1f5065;
+  text-decoration: none;  
+  color: white;
+  display: block;
+  }
+
+.navbar li:hover, a:hover {background-color: #54879d;}
+
+
+.navbar li ul  {
+  display: none; 
+  height: auto;         
+  margin: 0; 
+  padding: 0;   
+  }    
+
+.navbar li:hover ul  {
+                        display: block; / Displays the drop-down box when the menu item is hovered over /
+                        }
+
+
+.navbar li ul li {background-color: #54879d;} 
+
+
+
+.navbar li ul li a  {
+  border-left: 1px solid #1f5065; 
+  border-right: 1px solid #1f5065; 
+  border-top: 1px solid #74a3b7; 
+  border-bottom: 1px solid #1f5065; 
+  }
+    
+.navbar li ul li a:hover {background-color: #366b82;}
